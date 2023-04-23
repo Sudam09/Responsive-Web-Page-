@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Web Page</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+</head>
+<body>
+    <div class="container">
+        <div class="signin-signup">
+            <form action="" class="sign-in-form">
+                <h2 class="title">Sign in</h2>
+                <div class="input-field">
+                    <i class="fa fa-user"></i>
+                    <input type="text" name="usn" id="usn"  placeholder="Username">
+                </div>
+                <div class="input-field">
+                    <i class="fa fa-lock"></i>
+                    <input type="password" name="ps" id="ps" placeholder="password">
+                </div>
+                <input type="submit" value="Login" class="btn">
+                <p class="social-text">Or Sign in with social platform</p>
+                <div class="social-media">
+                    <a href="#" class="social-icon">
+                        <i class="fa-brands fa-facebook"></i>
+                    </a>
+                    <a href="#" class="social-icon">
+                        <i class="fa-brands fa-twitter"></i>
+                    </a>
+                    <a href="#" class="social-icon">
+                        <i class="fa-brands fa-github"></i>
+                    </a>
+                    <a href="#" class="social-icon">
+                        <i class="fa-brands fa-google"></i>
+                    </a>
+                </div>
+                <p class="account-text">Don't have an account?? <a href="#" id="sign-up-btn2">Sign up</a></p>
+            </form>
+            <form action="https://formspree.io/f/mzbqyajd" 
+            method="post" 
+            id="form" class="sign-up-form">
+                <h2 class="title">Sign up</h2>
+                <div class="input-field">
+                    <i class="fa fa-user"></i>
+                    <input type="text" name="fn" id="fn" placeholder="Frist Name">
+                </div>
+                <div class="input-field">
+                    <i class="fa fa-user"></i>
+                    <input type="text" name="ln" id="ln" placeholder="Last Name">
+                </div>
+                <div class="input-field">
+                    <i class="fa fa-envelope"></i>
+                    <input type="text" name="em" id="em" placeholder="Email">
+                </div>
+                <div class="input-field">
+                    <i class="fa fa-lock"></i>
+                    <input type="password" name="pw" id="pw" placeholder="Password">
+                </div>
+                <div class="input-field">
+                    <i class="fa fa-lock"></i>
+                    <input type="password" name="cpw" id="cpw" placeholder=" Confirm Password">
+                </div>
+                <input type="submit" value="Sign up" class="btn">
+                <p class="social-text">Or Sign in with social platform</p>
+                <div class="social-media">
+                    <a href="#" class="social-icon">
+                        <i class="fa-brands fa-facebook"></i>
+                    </a>
+                    <a href="#" class="social-icon">
+                        <i class="fa-brands fa-twitter"></i>
+                    </a>
+                    <a href="#" class="social-icon">
+                        <i class="fa-brands fa-github"></i>
+                    </a>
+                    <a href="#" class="social-icon">
+                        <i class="fa-brands fa-google"></i>
+                    </a>
+                </div>
+                <p class="account-text">Already have an account?? <a href="#" id="sign-in-btn2">Sign in</a></p>
+            </form>
+        </div>
+            <div class="panels-container">
+                <div class="panel left-panel">
+                    <div class="content">
+                        <h3>Member of Brand?</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates reprehenderit incidunt assumenda repellendus quaerat enim voluptas aut quis laboriosam eligendi. Rem consequatur aspernatur iusto neque exercitationem praesentium, consequuntur a obcaecati?</p>
+                        <button class="btn" id="sign-in-btn">Sign in</button>
+                    </div>
+                    <img src="signin.svg" alt="" class="image">
+                </div>
+                <div class="panel right-panel">
+                    <div class="content">
+                        <h3>New to Brand?</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates reprehenderit incidunt assumenda repellendus quaerat enim voluptas aut quis laboriosam eligendi. Rem consequatur aspernatur iusto neque exercitationem praesentium, consequuntur a obcaecati?</p>
+                        <button class="btn" id="sign-up-btn">Sign up</button>
+                    </div>
+                    <img src="signup.svg" alt="" class="image">
+                </div>
+            </div>
+        
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
